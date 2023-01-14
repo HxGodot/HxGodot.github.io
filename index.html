@@ -20,7 +20,7 @@
           </figure>
           
           <div class="content">
-            <table><thead><th align="null"><a href="https://github.com/HxGodot">github</a></th><th align="null"><a href="docs">api doc</a></th><th align="null"><a href="https://discord.gg/Uqh2Czx7">discord</a></th></thead><tbody></tbody></table>
+            <table><thead><th align="null"><a href="https://github.com/HxGodot">➜ github</a></th><th align="null"><a href="docs">➜ api docs</a></th><th align="null"><a href="https://twitter.com/dazKind">➜ twitter</a></th><th align="null"><a href="https://discord.gg/Uqh2Czx7">➜ discord</a></th></thead><tbody></tbody></table>
           </div>
           <div class="notification is-warning">
             <strong>Warning: Early alpha version.</strong> There might be crashes, pieces of the API not working or straight up missing. That being said, we appreciate you testing HxGodot in smaller projects. Feel free to get in touch in should you face issues or bugs. <a href="https://github.com/HxGodot/hxgodot/issues" target="_blank">➜ Report on Github.</a>
@@ -40,16 +40,17 @@
             </div>
           </article>
           <div class="content">
-            <p>He is right. Now, let's fix this, shall we?</p>
-<p><strong>HxGodot</strong> combines Haxe's hxcpp target with Godot 4's GDExtension mechanism to supercharge the way you build games with Godot. Nodes are written in Haxe, bundled as a GDExtension and behave like any other Node in your scenes(attach scripts, signals, etc). </p>
-<p>At the same time you gain access to Haxe's wide range of libraries and tools inside of Godot. In general any library that is either pure Haxe or supports cpp's static linking should work. <a href="https://lib.haxe.org">➜ Checkout haxelib</a>.</p>
-<p>Under the hood we leverages Haxe's macro generation to create a full set of bindings so you can use interact with all classes/built-ins exposed in Godot 4. <a href="docs">➜ See the api-docs</a>.</p>
+            <p>He is right. Now, let's do something about that, shall we?</p>
+<p><strong>HxGodot</strong> combines Haxe's <a href="https://haxe.org/manual/target-cpp-getting-started.html">hxcpp target</a> with Godot 4's latest GDExtension mechanism to transfor the way you build games with Godot 4. Nodes are written in Haxe, bundled as a native GDExtension and behave like any other native Node in your scenes(e.g. attach scripts, signals, etc).</p>
+<p>At the same time Haxe has a wealth of game frameworks and libraries available that can used inside of Godot, now. In general any library that is either pure Haxe or supports cpp's static linking should work. <a href="https://lib.haxe.org">➜ Checkout haxelib</a>.</p>
+<p>Under the hood we leverage Haxe's <a href="https://haxe.org/manual/macro.html">advanced macro system</a> to generate a full set of bindings you can use interact with all classes/built-ins exposed in Godot 4. <a href="docs">➜ See the api-docs</a>.</p>
+<p>In the future we want to add <a href="https://haxe.org/manual/target-cppia-getting-started.html">CPPIA based scripting</a> to allow Haxe script instances to be built &amp; hot-reloaded in the running editor. The Idea is to seamlessly move Haxe code from CPPIA to C++ if performance requires it and to enable interesting modding support.</p>
           </div>
           
           <div class="columns mt-4">
             <div class="column">
               <div class="content">
-                <h3>Features</h3><ul><li><strong>Works with normal Godot4 builds.</strong> No extra runtime required.</li><li><strong>No manual Memory Management.</strong> <a href="https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/immix/">Garbage Collector</a> included.</li><li><strong>C++ Runtime Performance.</strong> Generally HxGodot should be more performant compared to using C#. Results may wary.</li><li><strong>Benefit from the Haxe Ecosystem.</strong> <a href="https://lib.haxe.org">➜ Checkout haxelib</a></li><li><strong>Parity with Godot-API</strong> where possible.</li></ul>
+                <h3>Features</h3><ul><li>Works with vanilla Godot4 builds</li><li><a href="docs">Parity with Godot-API where possible</a></li><li><a href="https://haxe.org/documentation/introduction/">A modern, high-level programming language</a></li><li><a href="https://haxe.org/documentation/introduction/stdlib-introduction.html">Cross-platform standard library</a></li><li><a href="https://lib.haxe.org">Many available Haxelib libraries</a></li><li><a href="https://benchs.haxe.org">High Runtime Performance</a></li></ul>
               </div>
             </div>
             <div class="column">
@@ -65,17 +66,17 @@
           <div class="columns is-vcentered">
             <div class="column">
               <div class="box screenshot">
-                <p><a href="z506.jpg"><img alt="Use Godot built-ins seamless in your Haxe-Code" src="z506.jpg" /></a></p>
-<p><em>Screenshot: Use Godot built-ins seamless in your Haxe-Code</em></p>
+                <p><a href="z509.gif"><img alt="Utilizing grig.midi you can read and write MIDI from Godot 4" src="z509.gif" /></a></p>
+<p><em><a href="https://github.com/HxGodot/squash-the-creeps-3d-hxgodot/tree/experiment/midi-launchpad-controller">MIDI-Experiment</a>: Utilizing <a href="https://lib.haxe.org/p/grig.midi">grig.midi</a> you can read and write MIDI from Godot</em></p>
               </div>
               <div class="box screenshot">
                 <p><a href="z507.jpg"><img alt="Godot and Haxe working in tandem" src="z507.jpg" /></a></p>
-<p><em>Screenshot: Godot and Haxe working in tandem</em></p>
+<p><em><a href="https://github.com/HxGodot/squash-the-creeps-3d-hxgodot">Squash-the-creeps-Sample</a>: Godot and Haxe working in tandem</em></p>
               </div>
               
               <div class="box screenshot">
-                <p><a href="z509.gif"><img alt="Using grig.midi you can read and write MIDI from Godot" src="z509.gif" /></a></p>
-<p><em>Animation: Using <a href="https://lib.haxe.org/p/grig.midi">grig.midi</a> you can read and write MIDI from Godot</em></p>
+                <p><a href="z506.jpg"><img alt="Use Godot built-ins seamless in your Haxe-Code" src="z506.jpg" /></a></p>
+<p><em><a href="https://github.com/HxGodot/hxgodot">See HxGodot's Readme</a>: Use Godot built-ins seamless in your Haxe-Code</em></p>
               </div>
             </div>
           </div>
